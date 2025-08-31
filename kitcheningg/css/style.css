@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("../img/bg-body.png");
+}
+
+
+
+/*HEADER*/
+header {
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+header img {
+    align-self: center;
+    padding: 20px;
+    margin: 20px;
+    height: 130px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.h4_nav {
+    display: inline;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+
+/*section 1*/
+#section_1 {
+
+    align-items: center;
+    justify-content: center;
+    padding-left: 170px;
+}
+
+
+
+
+/*section 2*/
+#section_2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 155px;
+    margin-right: 140px;
+}
+
+#section_2 article {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+    flex: 1 1 calc(33.333% - 20px);
+
+    justify-content: space-between;
+}
+
+#section_2 .img_productos {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+#section_2 h2 {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+#section_2 .parrafitos {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+#section_2 .ver_mas {
+    display: inline-block;
+    background: black;
+    color: white;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    border-radius: 3px;
+    text-align: center;
+    align-self: flex-start;
+}
+
+
+/* FOOTER*/
+footer {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px 10px 40px;
+    margin: 20px 160px 5px 170px ;
+}
+
+footer p {
+    color: white;
+    font-size: 10px;
+}
