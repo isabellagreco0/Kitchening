@@ -12,6 +12,25 @@ body {
 
 
 /*HEADER*/
+
+#botones_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: end;
+    width: 100%;
+}
+
+#botones_div a {
+    align-self: end;
+    color: white;
+    font-size: 10px;
+    background-color: #333333;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+
 header {
     margin-right: 30px;
     margin-left: 30px;
@@ -151,4 +170,282 @@ footer {
 footer p {
     color: white;
     font-size: 10px;
+}
+
+
+
+
+
+/*login y registro*/
+
+.h1_lr{
+margin: 20px;
+}
+
+.formulario {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #444;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*ADAPTACION*/
+@media (max-width: 768px) {
+
+    /*HEADER*/
+    header {
+        margin-right: 0px;
+        margin-left: 7px;
+        width: 768px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+
+    }
+
+    header img {
+        align-self: center;
+        padding: 10px;
+        margin: 10px;
+        height: 80px;
+        width: 90px;
+        border-radius: 50%;
+    }
+
+    header nav {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+
+    .h4_nav {
+        display: inline;
+        padding: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 0.1px;
+        margin-right: 0.1px;
+    }
+
+    /*section 1*/
+    #section_1 {
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+    }
+
+    #section_1 img {
+        width: 740px;
+    }
+
+
+
+    /*section 2*/
+
+    .section_11 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1200px;
+
+    }
+
+    .section_22 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1200px;
+    }
+
+
+    #section_2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 768px;
+        margin-left: 5px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+
+    /*HEADER*/
+    header {
+        margin-right: 0px;
+        margin-left: 7px;
+        width: 425px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header img {
+        align-self: center;
+        padding: 10px;
+        margin: 10px;
+        height: 80px;
+        width: 90px;
+    }
+
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 400px;
+    }
+
+    .h4_nav {
+        align-self: center;
+        display: inline;
+        padding: 3px;
+        padding-left: 130px;
+        padding-right: 130px;
+        margin-top: 1px;
+    }
+
+    /*section 1*/
+    #section_1 {
+        align-items: center;
+        justify-content: center;
+        padding-left: 7px;
+    }
+
+    #section_1 img {
+        width: 420px;
+    }
+
+
+
+    /*section 2*/
+    .section_11 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 420px;
+    }
+
+    .section_22 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 420px;
+    }
+
+
+    #section_2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 420px;
+    }
+
+    #section_2 article {
+        padding: 12px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 420px;
+        justify-content: space-between;
+    }
+
+
+    /* FOOTER*/
+    footer {
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        margin: 40px 0px 5px 70px;
+        width: 300px;
+    }
+
+    footer p {
+        color: white;
+        font-size: 7px;
+    }
 }
