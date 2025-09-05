@@ -63,30 +63,50 @@ header nav {
 
 /*section 1*/
 #section_1 {
-
     align-items: center;
     justify-content: center;
-    padding-left: 170px;
+    padding-left: 40px;
+}
+
+#section_1 img {
+    width: 1180px;
 }
 
 
 
-
 /*section 2*/
+
+.section_11 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+
+}
+
+.section_22 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+
+
 #section_2 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 155px;
-    margin-right: 140px;
+    width: 1200px;
+    margin-left: 30px;
 }
 
 #section_2 article {
     padding: 15px;
     display: flex;
     flex-direction: column;
-
-    flex: 1 1 calc(33.333% - 20px);
-
+    width: 380px;
     justify-content: space-between;
 }
 
@@ -125,7 +145,7 @@ footer {
     display: flex;
     justify-content: center;
     padding: 10px 40px 10px 40px;
-    margin: 20px 160px 5px 170px ;
+    margin: 20px 160px 5px 170px;
 }
 
 footer p {
