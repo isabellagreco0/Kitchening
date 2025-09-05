@@ -178,8 +178,8 @@ footer p {
 
 /*login y registro*/
 
-.h1_lr{
-margin: 20px;
+.h1_lr {
+    margin: 20px;
 }
 
 .formulario {
@@ -257,12 +257,10 @@ button[type="reset"] {
     header {
         margin-right: 0px;
         margin-left: 7px;
-        width: 768px;
+        width: 100%;
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-
-
     }
 
     header img {
@@ -301,7 +299,7 @@ button[type="reset"] {
     }
 
     #section_1 img {
-        width: 740px;
+        width: 100%;
     }
 
 
@@ -313,7 +311,7 @@ button[type="reset"] {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        width: 1200px;
+        max-width: 768px;
 
     }
 
@@ -322,15 +320,25 @@ button[type="reset"] {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
-        width: 1200px;
+        max-width: 768px;
     }
 
 
     #section_2 {
         display: flex;
         flex-wrap: wrap;
-        width: 768px;
+        max-width: 100%;
         margin-left: 5px;
+    }
+
+    #section_2 article {
+        padding: 12px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        min-width: 280px;
+        justify-content: space-between;
     }
 }
 
